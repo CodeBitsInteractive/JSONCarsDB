@@ -2,6 +2,8 @@
 This is a JSON Cars Database. It's include Car Manufacturers and Models.
 This DB include <b>150 car manufacturers</b> with more models.
 
+<a href="https://github.com/CodeBitsInteractive/JSONCarsDB/blob/master/carsdb.json">Download Now</a>
+
 ## Structure
 Database based on JSON and has this structure:<br/>
 [<br/>
