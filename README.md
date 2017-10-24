@@ -4,175 +4,173 @@ This DB include <b>150 car manufacturers</b> with more models.
 
 ## Structure
 Database based on JSON and has this structure:<br/>
-<code>
-[
-  {
-    "name": "Acura",
-    "models" : ["CL", "CSX", "EL", "Integra", "MDX", "NSX", "RDX", "RL", "RSX", "SLX", "TL", "TLX", "TSX", "ZDX", "Другая"]
-  },
-  {
-  ...
-  },
-  {
-  ...
-  },
-  {
-    "name": "УАЗ",
-    "models": ["2206", "3151", "31512", "31514", "31519", "3153", "3159", "3160", "3303", "3741", "3909", "452 Буханка", "469", "Hunter", "Patriot", "Pickup", "Карго", "Симбир", "Другая"]
-  }
+[<br/>
+  {<br/>
+    "name": "Acura",<br/>
+    "models" : ["CL", "CSX", "EL", "Integra", "MDX", "NSX", "RDX", "RL", "RSX", "SLX", "TL", "TLX", "TSX", "ZDX", "Другая"]<br/>
+  },<br/>
+  {<br/>
+  ...<br/>
+  },<br/>
+  {<br/>
+  ...<br/>
+  },<br/>
+  {<br/>
+    "name": "УАЗ",<br/>
+    "models": ["2206", "3151", "31512", "31514", "31519", "3153", "3159", "3160", "3303", "3741", "3909", "452 Буханка", "469", "Hunter", "Patriot", "Pickup", "Карго", "Симбир", "Другая"]<br/>
+  }<br/>
 ]
-</code>
 
 You can use it for your selectors.
 
 ## Manufacturers
-AC
-Acura
-Alfa Romeo
-Alpina
-Aro
-Asia
-Aston Martin
-Audi
-Bajaj
-BAW
-Bentley
-BMW
-Brilliance
-Bufori
-Bugatti
-Buick
-BYD
-Cadillac
-Caterham
-Changan
-ChangFeng
-Chery
-Chevrolet
-Chrysler
-Citroen
-Dacia
-Dadi
-Daewoo
-Daihatsu
-Daimler
-Datsun
-Derways
-Dodge
-Dongfeng
-Doninvest
-Eagle
-Ecomotors
-FAW
-Ferrari
-FIAT
-Ford
-Foton
-GAC
-Geely
-Genesis
-Geo
-GMC
-Great Wall
-Hafei
-Haima
-Haval
-Hawtai
-Honda
-Huanghai
-Hummer
-Hyundai
-Infiniti
-Iran Khodro
-Isuzu
-Iveco
-JAC
-Jaguar
-Jeep
-Jinbei
-JMC
-KIA
-Koenigsegg
-Lamborghini
-Lancia
-Land Rover
-Landwind
-LDV
-Lexus
-LIFAN
-Lincoln
-Lotus
-Luxgen
-Mahindra
-Marussia
-Maserati
-Maybach
-Mazda
-McLaren
-Mercedes-Benz
-Mercury
-Metrocab
-MG
-MINI
-Mitsubishi
-Mitsuoka
-Morgan
-Morris
-Nissan
-Noble
-Oldsmobile
-Opel
-Pagani
-Peugeot
-Plymouth
-Pontiac
-Porsche
-Proton
-PUCH
-Ravon
-Renault
-Rolls-Royce
-Ronart
-Rover
-Saab
-Saleen
-Saturn
-Scion
-SEAT
-Shuanghuan
-Skoda
-SMA
-Smart
-Spyker
-SsangYong
-Subaru
-Suzuki
-Talbot
-Tata
-Tesla
-Tianma
-Tianye
-Toyota
-Trabant
-Volkswagen
-Volvo
-Vortex
-Wartburg
-Westfield
-Wiesmann
-Xin Kai
-Zibar
-ZOTYE
-ZX
-ВАЗ (LADA)
-ВИС
-ГАЗ
-ЗАЗ
-ЗИЛ
-ИЖ
-ЛуАЗ
-Москвич
-РАФ
-СМЗ
-ТагАЗ
-УАЗ
+AC<br/>
+Acura<br/>
+Alfa Romeo<br/>
+Alpina<br/>
+Aro<br/>
+Asia<br/>
+Aston Martin<br/>
+Audi<br/>
+Bajaj<br/>
+BAW<br/>
+Bentley<br/>
+BMW<br/>
+Brilliance<br/>
+Bufori<br/>
+Bugatti<br/>
+Buick<br/>
+BYD<br/>
+Cadillac<br/>
+Caterham<br/>
+Changan<br/>
+ChangFeng<br/>
+Chery<br/>
+Chevrolet<br/>
+Chrysler<br/>
+Citroen<br/>
+Dacia<br/>
+Dadi<br/>
+Daewoo<br/>
+Daihatsu<br/>
+Daimler<br/>
+Datsun<br/>
+Derways<br/>
+Dodge<br/>
+Dongfeng<br/>
+Doninvest<br/>
+Eagle<br/>
+Ecomotors<br/>
+FAW<br/>
+Ferrari<br/>
+FIAT<br/>
+Ford<br/>
+Foton<br/>
+GAC<br/>
+Geely<br/>
+Genesis<br/>
+Geo<br/>
+GMC<br/>
+Great Wall<br/>
+Hafei<br/>
+Haima<br/>
+Haval<br/>
+Hawtai<br/>
+Honda<br/>
+Huanghai<br/>
+Hummer<br/>
+Hyundai<br/>
+Infiniti<br/>
+Iran Khodro<br/>
+Isuzu<br/>
+Iveco<br/>
+JAC<br/>
+Jaguar<br/>
+Jeep<br/>
+Jinbei<br/>
+JMC<br/>
+KIA<br/>
+Koenigsegg<br/>
+Lamborghini<br/>
+Lancia<br/>
+Land Rover<br/>
+Landwind<br/>
+LDV<br/>
+Lexus<br/>
+LIFAN<br/>
+Lincoln<br/>
+Lotus<br/>
+Luxgen<br/>
+Mahindra<br/>
+Marussia<br/>
+Maserati<br/>
+Maybach<br/>
+Mazda<br/>
+McLaren<br/>
+Mercedes-Benz<br/>
+Mercury<br/>
+Metrocab<br/>
+MG<br/>
+MINI<br/>
+Mitsubishi<br/>
+Mitsuoka<br/>
+Morgan<br/>
+Morris<br/>
+Nissan<br/>
+Noble<br/>
+Oldsmobile<br/>
+Opel<br/>
+Pagani<br/>
+Peugeot<br/>
+Plymouth<br/>
+Pontiac<br/>
+Porsche<br/>
+Proton<br/>
+PUCH<br/>
+Ravon<br/>
+Renault<br/>
+Rolls-Royce<br/>
+Ronart<br/>
+Rover<br/>
+Saab<br/>
+Saleen<br/>
+Saturn<br/>
+Scion<br/>
+SEAT<br/>
+Shuanghuan<br/>
+Skoda<br/>
+SMA<br/>
+Smart<br/>
+Spyker<br/>
+SsangYong<br/>
+Subaru<br/>
+Suzuki<br/>
+Talbot<br/>
+Tata<br/>
+Tesla<br/>
+Tianma<br/>
+Tianye<br/>
+Toyota<br/>
+Trabant<br/>
+Volkswagen<br/>
+Volvo<br/>
+Vortex<br/>
+Wartburg<br/>
+Westfield<br/>
+Wiesmann<br/>
+Xin Kai<br/>
+Zibar<br/>
+ZOTYE<br/>
+ZX<br/>
+ВАЗ (LADA)<br/>
+ВИС<br/>
+ГАЗ<br/>
+ЗАЗ<br/>
+ЗИЛ<br/>
+ИЖ<br/>
+ЛуАЗ<br/>
+Москвич<br/>
+РАФ<br/>
+СМЗ<br/>
+ТагАЗ<br/>
+УАЗ<br/>
